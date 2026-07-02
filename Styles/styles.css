@@ -22,12 +22,14 @@ body {
     font-weight: 700;
     line-height: 150%;
     color: white;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .primary-btn:hover{
      background-color: #ecc314;
      color: #000;
+     transform: scale(1.02);
      
 }
 
