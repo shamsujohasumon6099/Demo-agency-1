@@ -24,6 +24,16 @@ body {
     color: white;
 }
 
+
+.primary-btn:hover{
+     background-color: #ecc314;
+     color: #000;
+     
+}
+
+
+
+
 header nav, header section, main section {
     max-width: 1140px;
     margin: 0 auto;
@@ -75,12 +85,13 @@ header nav, header section, main section {
 
 .hero-section{
     max-width: 900px;
-    padding: 160px 200px;
+    padding: 160px 20px;
     text-align: center;
 
 }
 
 .hero-title{
+    width: 100%;
     font-size: 65px;
     font-weight: 700;
     color: #252432;
